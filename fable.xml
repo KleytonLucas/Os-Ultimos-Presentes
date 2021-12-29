@@ -1,6 +1,289 @@
 <fable>
-	<page>
+	<page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='OS ÚLTIMOS PRESENTES' x='45' y='320' font-size='35' color='red'/>
+    <agent text='Clique no presente para começar' x='120' y='300' font-soze='25' color='yellow'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
   
+    <agent img='Tree_2.png' x='400' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='330' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='-50' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='10' y='98' width='150' height='200'/>
+    
+    <agent img='Idle (1).png' x='100' y='85' width='200' height='150'/>
+    
+    <agent img='presente.png' x='230' y='97' width='100' height='100' on-touch="_NEXT_PAGE"/>
     
   </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='Clique no texto para prosseguir a história' x='50' y='450' font-size='18' color='yellow'/>
+    
+    <agent text='Na noite de natal, Papai Noel voava em seu trenó entregando seus presentes de casa em casa. E faltando poucos presentes a serem entregues, suas renas começaram a ficar cansadas...' x='10' y='230' font-size='18' color='white' on-touch='story2'>
+      <story2 text='“Estranho”, disse ele, “as renas nunca se cansaram antes”. Então pensou em levantar o ânimo de suas renas. ' x='10' y='230' font-size='18' color='white' on-touch='story3'/>
+      <story3 text='Mas antes de poder fazer algo, a primeira rena perdeu o passo, atrapalhou a segunda que atrapalhou a terceira que atrapalhou a quarta que atrapalhou todas as outras.' x='10' y='230' font-size='18' color='white' on-touch='story4'/>
+      <story4 text='O trenó começou então a descer em direção as montanhas. Ele não conseguia mais controlar as renas, cada uma queria voar em direções diferentes.' x='10' y='230' font-size='18' color='white' on-touch='story5'/>
+      <story5 text='Após rodopiar várias e várias vezes o Papai Noel finalmente conseguiu controlar as renas. Mas nisso, reparou que algo caíra. O que estava faltando no trenó?' x='10' y='230' font-size='18' color='white' on-touch='story6'/>
+      <story6 text='“OS PRESENTES! OS PRESENTES! CAIRAM TODOS!” Gritou ele.' x='10' y='230' font-size='18' color='white' on-touch='story7'/>
+      <story7 text='Clique na seta abaixo e ajude o Papai Noel a encontrar os últimos presentes.'  x='10' y='230' font-size='18' color='yellow'/>
+    
+    </agent>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+    
+    
+    <agent img='Sign_2.png' x='350' y='100' width='100' height='100' on-touch='_NEXT_PAGE'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='Olhe! Lá está um presente! Vamos, clique nele.' x='10' y='450' font-size='18' color='yellow'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='Tree_2.png' x='-50' y='98' width='150' height='200'/>
+    
+    <agent img='presente.png' x='400' y='97' width='100' height='100' on-touch='_NEXT_PAGE'/>
+    
+    <agent img='Idle (1).png' x='50' y='85' width='200' height='150'/>
+    
+    <agent text='0/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='E agora?! Alguns presentes ficaram congelados!' x='10' y='450' font-size='18' color='yellow' on-touch='story2'>
+      <story2 text='Derreta o gelo com a tocha.' x='50' y='450' font-size='18' color='yellow'/>
+    </agent>
+    
+    <agent img='SnowMan.png' x='0' y='99' width='100' height='100'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='Stone.png' x='-70' y='98' width='150' height='150'/>
+    
+    
+    <agent img='Idle (1).png' x='50' y='85' width='200' height='150'/>
+    
+    <agent img='Crystal.png' x='400' y='100' width='100' height='100'/>
+    
+    <agent img='cubop.png' x='400' y='100' width='100' height='100' on-touch='warn' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='400' y='97' width='100' height='100' on-touch='_NEXT_PAGE' />
+    </agent>
+    
+    <agent img='tocha1.png' x='100' y='300' width='30' height='60' draggable="true" on-drop='cut-door' on-zone='disappear' on-trigger='disappear'>
+      <disappear x='1200'/>
+    </agent>
+    
+    <agent text='1/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='Essa não! Mais blocos de gelo! ' x='10' y='450' font-size='18' color='yellow'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='14.png' x='0' y='350' width='100' height='50'/>
+    <agent img='15.png' x='100' y='350' width='100' height='50'/>
+    <agent img='15.png' x='200' y='350' width='100' height='50'/>
+    <agent img='15.png' x='300' y='350' width='100' height='50'/>
+    <agent img='16.png' x='400' y='350' width='100' height='50'/>
+    
+    <agent img='Idle (1).png' x='-50' y='85' width='200' height='150'/>
+    
+    <agent img='colunap.png' x='150' y='100' width='100' height='250' drop-zone='cut-door'>
+    	<cut-door text='aaa' x='800' y='100'/>
+    </agent>
+    
+    <agent img='coluna.png' x='250' y='100' width='100' height='250' drop-zone='cut-door'>
+    	<cut-door text='aaa' x='800' y='100'/>
+    </agent>
+    
+    <agent img='coluna.png' x='350' y='100' width='100' height='250' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='350' y='97' width='100' height='100' on-touch='_NEXT_PAGE'/>
+    </agent>
+    
+    <agent img='tocha1.png' x='50' y='280' width='30' height='60' draggable='true' on-drop='cut-door'>
+      
+    </agent>
+    
+    <agent text='2/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='Cuidado! Você só pode derreter um dessa vez!' x='10' y='450' font-size='18' color='yellow'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='Igloo.png' x='10' y='98' width='200' height='100'/>
+    
+    <agent img='Idle (1).png' x='50' y='85' width='200' height='150'/>
+    
+    <agent img='IceBox.png' x='200' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='200' y='97' on-touch='_NEXT_PAGE'/>
+    </agent>
+    <agent img='cubop.png' x='300' y='100' width='100' height='108' on-touch='warn' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='300' y='97' width='100' height='100' on-touch='_NEXT_PAGE' />
+    </agent>
+    <agent img='IceBox.png' x='400' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='400' y='97' on-touch='_NEXT_PAGE'/>
+    </agent>
+    
+    
+    <agent img='tocha1.png' x='100' y='300' width='30' height='60' draggable="true" on-drop='cut-door' on-zone='disappear' on-trigger='disappear'>
+      <disappear x='1200'/>
+    </agent>
+    
+    <agent text='3/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/> 
+    
+    <agent img='Idle (1).png' x='50' y='85' width='200' height='150'/>
+    
+    <agent img='Crystal.png' x='-50' y='100' width='100' height='100'/>
+    
+    <agent img='IceBox.png' x='300' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='200' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='200' y='200' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='300' y='200' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='400' y='200' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='200' y='300' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='300' y='300' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='400' y='300' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='200' y='400' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='300' y='400' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    <agent img='IceBox.png' x='400' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='400' y='100' width='100' height='100' on-touch='_NEXT_PAGE' />
+    </agent>
+    <agent img='cubop.png' x='400' y='400' width='100' height='108' on-touch='warn' drop-zone='cut-door'>
+    	<cut-door text=' ' x='2000' y='97'/>
+    </agent>
+    
+    <agent img='tocha1.png' x='100' y='300' width='30' height='60' draggable='true' on-drop='cut-door' />
+    
+    <agent text='4/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='Cuidado! Você só pode derreter um dessa vez!' x='10' y='450' font-size='18' color='yellow'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='Igloo.png' x='10' y='98' width='200' height='100'/>
+    
+    <agent img='Idle (1).png' x='50' y='85' width='200' height='150'/>
+    
+    <agent img='IceBox.png' x='200' y='100' width='100' height='100' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='200' y='97' on-touch='_NEXT_PAGE'/>
+    </agent>
+    <agent img='IceBox.png' x='300' y='100' width='100' height='100' on-touch='warn' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='300' y='97' width='100' height='100' on-touch='_NEXT_PAGE' />
+    </agent>
+    <agent img='cubop.png' x='400' y='100' width='100' height='108' drop-zone='cut-door'>
+    	<cut-door img='presente.png' x='400' y='97' on-touch='_NEXT_PAGE'/>
+    </agent>
+    
+    
+    <agent img='tocha1.png' x='100' y='300' width='30' height='60' draggable='true' on-drop='cut-door' on-zone='disappear' on-trigger='disappear'>
+      <disappear x='1200'/>
+    </agent>
+    
+    <agent text='5/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
+  <page background='BG.png' soundtrack='musicanatal.wav'>
+    
+    <agent text='PARABÉNS! VOCÊ CONSEGUIU!' x='100' y='320' font-size='40' color='red'/>
+    
+    <agent img='2.png' x='0' y='0' width='100' height='100'/>
+    <agent img='2.png' x='100' y='0' width='100' height='100'/>
+    <agent img='2.png' x='200' y='0' width='100' height='100'/>
+    <agent img='2.png' x='300' y='0' width='100' height='100'/>
+    <agent img='2.png' x='400' y='0' width='100' height='100'/>
+  
+    <agent img='Tree_2.png' x='400' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='330' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='-50' y='98' width='150' height='200'/>
+    <agent img='Tree_2.png' x='10' y='98' width='150' height='200'/>
+    
+    <agent img='Idle (1).png' x='100' y='85' width='200' height='150'/>
+    
+    <agent img='presente.png' x='230' y='97' width='100' height='100' draggable='true'/>
+    <agent img='presente.png' x='230' y='150' width='100' height='100' draggable='true'/>
+    <agent img='presente.png' x='320' y='97' width='100' height='100' draggable='true'/>
+    <agent img='presente.png' x='320' y='150' width='100' height='100' draggable='true'/>
+    <agent img='presente.png' x='320' y='200' width='100' height='100' draggable='true'/>
+    <agent img='presente.png' x='400' y='97' width='100' height='100' draggable='true'/>
+    
+    <agent text='6/6 Presentes' x='10' y='10' font-size='18' color='white'/>
+    
+  </page>
+  
 </fable>
